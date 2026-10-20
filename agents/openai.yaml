@@ -1,4 +1,4 @@
 interface:
-  display_name: "旅行综艺与文旅出片"
+  display_name: "旅途开演 · Trip on Show"
   short_description: "默认自制旅行综艺风格，结合节目包装、人物特效、吐槽花字和同步音效完成出片"
-  default_prompt: "请使用 $travel-story-video，按默认的自制旅行综艺风格和 full-variety 包装，把我的旅行素材或 AI 创意做成含花字、人物特效与同步音效的完整视频。"
+  default_prompt: "请使用 $trip-on-show，按默认的自制旅行综艺风格和 full-variety 包装，把我的旅行素材或 AI 创意做成含花字、人物特效与同步音效的完整视频。"
