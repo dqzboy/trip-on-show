@@ -48,13 +48,12 @@ git clone https://github.com/dqzboy/trip-on-show.git "$env:USERPROFILE\.codex\sk
 
 ![晋游开演成片预览](assets/jinyou-kaiyan.gif)
 
-> 原片参数（ffprobe 实测）：`山西五站_成片.mp4` 1080×1920 / 60s / 30fps / ~124MB；`晋游开演-Trip-on-Show-v2.mp4` 1920×1080 / 60s / 30fps / ~73MB。GIF 仅 256 色且不含声音，整段 60 秒转单图体积过大，故预览仅截取片段。参考 [huashu-motion](https://github.com/alchaincyf/huashu-motion) 的「导出 GIF」能力用于将其生成的动画网页渲染为 GIF，而非导入外部实拍 MP4。
 
 ## 使用
 
 完整制作默认要求逐素材分析、逐镜头精确入出点、覆盖全片的逐秒审阅表，以及精确到帧的图层/关键帧和检查记录，详见 [逐帧制作规范](references/frame-accurate-production.md)。入口保持可读，详细操作在 references 中，均属于此 Skill。AI 根据本片内容自主设计原创插画和包装，不固定复用参考中的小车、浅色信息条或某套贴纸。
 
-在请求中输入“使用 trip-on-show”或 `$trip-on-show`，并提供素材或素材路径、目标时长和画幅。默认采用自制旅行综艺风格（`full-variety`）：节目包装、人物定格抠像、情绪贴纸、吐槽花字、漫画强调、剪贴路线和同步音效，无需每次重复指定强综艺。需要安静游记、人文纪录或简洁宣传风格时另行说明。
+在请求中输入“使用 trip-on-show”或 `$trip-on-show`，并提供素材或素材路径、目标时长和画幅。若未说明画幅（竖屏/横屏），Skill 会先向你确认后再开始制作。默认采用自制旅行综艺风格（`full-variety`）：节目包装、人物定格抠像、情绪贴纸、吐槽花字、漫画强调、剪贴路线和同步音效，无需每次重复指定强综艺。需要安静游记、人文纪录或简洁宣传风格时另行说明。
 
 **剪辑已有素材：**
 
