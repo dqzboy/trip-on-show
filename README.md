@@ -4,6 +4,20 @@
 
 ## 安装
 
+### 方式一：跟你的 agent 说（推荐）
+
+```text
+帮我安装 trip-on-show 这个 skill（github.com/dqzboy/trip-on-show），装好后跑一遍 demo
+```
+
+### 方式二：一行命令
+
+```bash
+npx skills add dqzboy/trip-on-show
+```
+
+### 手动安装（可选）
+
 将仓库克隆到 Codex 的 Skills 目录：
 
 **macOS / Linux：**
@@ -21,6 +35,20 @@ git clone https://github.com/dqzboy/trip-on-show.git "$env:USERPROFILE\.codex\sk
 也可以在本仓库点击 **Code → Download ZIP**，解压后将文件夹重命名为 `trip-on-show`，放入上述 Skills 目录。如设置了 `CODEX_HOME`，则放入 `$CODEX_HOME/skills/`。
 
 确认目录结构为 `skills/trip-on-show/SKILL.md`，然后新建 Codex 对话使用；若未识别，重启 Codex 后重试。
+
+## 成片预览（GIF）
+
+以下为两段成片的 GIF 预览（由原始 60 秒全高清 MP4 截取高光片段、降分辨率与帧率后生成，GIF 不含音频）：
+
+**山西五站 · 成片（竖屏）**
+
+![山西五站成片预览](assets/shanxi-wuzhan.gif)
+
+**晋游开演 · Trip on Show v2（横屏）**
+
+![晋游开演成片预览](assets/jinyou-kaiyan.gif)
+
+> 原片参数（ffprobe 实测）：`山西五站_成片.mp4` 1080×1920 / 60s / 30fps / ~124MB；`晋游开演-Trip-on-Show-v2.mp4` 1920×1080 / 60s / 30fps / ~73MB。GIF 仅 256 色且不含声音，整段 60 秒转单图体积过大，故预览仅截取片段。参考 [huashu-motion](https://github.com/alchaincyf/huashu-motion) 的「导出 GIF」能力用于将其生成的动画网页渲染为 GIF，而非导入外部实拍 MP4。
 
 ## 使用
 
@@ -66,3 +94,7 @@ git clone https://github.com/dqzboy/trip-on-show.git "$env:USERPROFILE\.codex\sk
 实际生成与导出需要相应的视频工具、素材及服务权限。Skill 本身不包含视频引擎或付费服务。若希望参考具体节目片段，请提供可访问的参考视频或片段信息。
 
 开头制作要求见 [综艺片头、主题场景与正片交接](references/variety-openings.md)。文档只保留通用风格要求与原创制作方法。
+
+## 许可证
+
+本项目基于 [MIT License](LICENSE) 开源。详见仓库根目录的 [LICENSE](LICENSE) 文件。
