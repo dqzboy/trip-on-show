@@ -46,7 +46,7 @@ git clone https://github.com/dqzboy/trip-on-show.git "$env:USERPROFILE\.codex\sk
 交付实际视频和可编辑工程。
 ```
 
-效果配方见 [强综艺包装规范](references/variety-effects.md)。
+效果配方见 [强综艺包装规范](references/variety-effects.md)，具体资产切层、路径/部件动画、描线、遮罩、物件合成与接镜见 [动画与插画实作](references/animation-playbook.md)。默认强综艺交付需要本片专属的实际美术和可见动作关系；照片轻推近、固定照片卡与描边字不能单独作为完成依据。先完成带声音代表样段，再扩展全片，并分别验收视觉完成度和工程技术。
 
 **制作 AI 旅行短片：**
 
