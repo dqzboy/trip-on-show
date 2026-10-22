@@ -33,6 +33,7 @@ description: 默认制作抖音自制旅行综艺风格的视频，以节目包�
 
 ## 按任务深度加载
 
+- 所有制作任务：开工与交付前必读 [quality-gates.md](references/quality-gates.md)：design-spec 锁定模板、美术方向预设、禁止上屏清单与交付前自检流程。硬性项全部通过才交付。
 - 默认综艺制作包含独立的片头设计与正片交接，先读 [variety-openings.md](references/variety-openings.md)：根据内容原创设计主题舞台、人物/地点拼贴、标题揭示、看点和遮罩交接，不以简单地名淡入替代片头。
 - 完整制作默认先读 [frame-accurate-production.md](references/frame-accurate-production.md)：逐张/逐段盘点全部素材，逐镜头记录精确入出点，覆盖全片逐秒视图，定义每帧图层状态并记录实际审查范围。不能只给粗略分段表。
 - 用户要抖音综艺感旅行 Vlog、自制综艺、强花字特效，或反馈“缺少特效”：优先读 [variety-effects.md](references/variety-effects.md)，将节目包装、人物效果、花字与声音组合落实到时间线；不能只以普通字幕、轻推近和路线地图交差。
